@@ -7,7 +7,7 @@
 Keeping our customers' data protected at all times is our highest priority. This security overview provides a high-level overview of the security practices put in place to achieve that objective.
 Have questions or feedback? Feel free to reach out to us at [security@bluechai.com](mailto:security@bluechai.com)
 
-Our security.txt can be accessed [here](DOMAIN/security.txt).
+Our security.txt can be accessed [here](bluechai.com/security.txt).
 
 ## Dedicated Security Team
 
@@ -82,7 +82,7 @@ We use Distributed Denial of Service (DDoS) mitigation services powered by an in
 
 <!--- __Customization:__ You could add more information on your encryption strategy (e.g. algorithm used), but it’s not required. --->
 
-Encryption in transit: All data sent to or from our infrastructure is encrypted in transit via industry best-practices using Transport Layer Security (TLS). You can see our SSLLabs report [here](https://www.ssllabs.com/ssltest/analyze.html?d=DOMAIN)
+Encryption in transit: All data sent to or from our infrastructure is encrypted in transit via industry best-practices using Transport Layer Security (TLS). You can see our SSLLabs report [here](https://www.ssllabs.com/ssltest/analyze.html?d=bluechai.com)
 Encryption at rest: All our user data (including passwords) is encrypted using battled-proofed encryption algorithms in the database.
 
 ## Data retention and removal
@@ -95,7 +95,7 @@ Encryption at rest: All our user data (including passwords) is encrypted using b
 
 We retain your usage data for a period of 90 days after your trial. All data is then completely removed from the dashboard and server.
 Every user can request the removal of usage data by contacting support.
-Read more about our privacy settings at [DOMAIN/privacy](DOMAIN/privacy).
+Read more about our privacy settings at [bluechai.com/privacy](bluechai.com/privacy).
 
 
 ## Business continuity and disaster recovery
@@ -131,7 +131,7 @@ We back up all our critical assets and regularly attempt to restore the backup t
 <!--- __Customization:__ Medium customization. Delete the tools you’re not using. --->
 
 - We use a runtime protection system that identifies and blocks OWASP Top 10 and business logic attacks in real-time.
-- We use security headers to protect our users from attacks. You can check our grade on [this security scanner](https://www.sqreen.io/scan?url=https%3A%2F%2FDOMAIN).
+- We use security headers to protect our users from attacks. You can check our grade on [this security scanner](https://www.sqreen.io/scan?url=https%3A%2F%2Fbluechai.com).
 - We use security automation capabilities that automatically detect and respond to threats targeting our apps.
 
 ## Secure development
@@ -161,16 +161,16 @@ We develop following security best practices and frameworks (OWASP Top 10, SANS 
 We encourage everyone that practices responsible disclosure and comply with our policies and terms of service to participate in our bug bounty program.
 Please avoid automated testing and only perform security testing with your own data. Please do not disclose any information regarding the vulnerabilities until we fix them. Rewards are done at our discretion depending on the criticality of the vulnerability reported.
 
-You can report vulnerabilities by contacting [security@DOMAIN](mailto:security@DOMAIN). Please include a proof of concept. We will respond as quickly as possible to your submission and won’t take legal actions if you follow the rules.
+You can report vulnerabilities by contacting [security@bluechai.com](mailto:security@bluechai.com). Please include a proof of concept. We will respond as quickly as possible to your submission and won’t take legal actions if you follow the rules.
 
 **Coverage**
-- *.DOMAIN
+- *.bluechai.com
 
 **Exclusions**
-- blog.DOMAIN
-- docs.DOMAIN
-- status.DOMAIN
-- support.DOMAIN
+- blog.bluechai.com
+- docs.bluechai.com
+- status.bluechai.com
+- support.bluechai.com
 
 **Accepted vulnerabilities are the following:**
 - Cross-Site Scripting (XSS)
